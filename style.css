@@ -1,0 +1,53 @@
+:root{
+    --cyan:#00FFFF;
+    --lightcyan:#07d8d5;
+    --yellow: #FF0;
+}
+body{
+    background-color: var(--cyan);
+}
+.container{
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px 10px;
+    background-color: var(--lightcyan);
+}
+
+.from h1{
+    text-align: center;
+}
+#data{
+    display: block;
+    border: none;
+    margin: 10px 0px;
+    font-size: 16px;
+    padding: 5px 20px;
+    width: 85%;
+}
+.from select{
+    margin: 10px 4px;
+    padding: 5px 0px;
+}
+button{
+    display: block;
+    margin: auto;
+    background-color: var(--yellow);
+    border: none;
+    margin-top: 10px;
+    padding: 5px 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    text-align: center;
+}
+p>a{
+    text-decoration: none;
+    color: var(--yellow);
+}
